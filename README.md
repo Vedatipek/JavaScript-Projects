@@ -5,15 +5,6 @@ Each project is stored in its own folder inside this repository.
 
 ---
 
-## 📂 Repository Structure
-JavaScript-Projects
-├── 01-one-page-website   # One Page Website project (HTML, CSS, JavaScript)
-├── 02-assignment-X       # Future assignment
-├── 03-assignment-Y       # Future assignment
-└── README.md             # Repository overview
-
----
-
 ## 🎯 Purpose
 - Practice and improve my JavaScript skills
 - Learn version control with Git and GitHub
