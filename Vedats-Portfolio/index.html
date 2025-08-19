@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vedat Ipek Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>Vedat Ipek</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#github" class="nav-link">GitHub</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="#video" class="nav-link">Video</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="home">
+      <h2>Welcome!</h2>
+      <p>Hello! I'm Vedat Ipek, a passionate software enthusiast with a strong interest in front-end development and clean, user-friendly design. I'm currently improving my skills in HTML, CSS, and JavaScript while working on personal portfolio projects like this one.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="gallery-text">
+        <div class="item">
+          <img src="images/office1.jpg" alt="Office setup 1" />
+          <p>I enjoy building websites that are both functional and visually appealing.</p>
+        </div>
+        <div class="item">
+          <img src="images/office2.jpg" alt="Office setup 2" />
+          <p>Learning new technologies keeps me motivated and inspired.</p>
+        </div>
+        <div class="item">
+          <img src="images/office3.jpg" alt="Office setup 3" />
+          <p>Problem-solving and logic are at the heart of my approach.</p>
+        </div>
+        <div class="item">
+          <img src="images/office4.jpg" alt="Office setup 4" />
+          <p>I’m currently focused on improving my responsive web design skills.</p>
+        </div>
+        <div class="item">
+          <img src="images/office5.jpg" alt="Office setup 5" />
+          <p>Outside of tech, I enjoy football and continuous personal growth.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="github">
+      <h2>My GitHub</h2>
+      <p>You can find some of my projects, code experiments, and open-source contributions on my GitHub profile. I'm always learning and trying to improve my coding skills one project at a time.</p>
+      <p>Visit: <a href="https://github.com/Vedatipek" target="_blank">github.com/Vedatipek</a></p>
+    </section>
+
+    <section id="resume">
+      <h2>Download My Resume</h2>
+      <a href="documents/Vedat_Ipek_CV.pdf" download class="cv-button">📄 Download PDF</a>
+    </section>
+
+    <section id="video">
+      <h2>Intro Video</h2>
+      <div class="video-container">
+        <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/KCVN-SuBBWM" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="mailto:youremail@example.com" method="POST" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Vedat Ipek</p>
+    </footer>
+
+  </div>
+
+  <!-- JS Dosyasını Bağla -->
+  <script src="portfolio.js"></script>
+
+</body>
+</html>
